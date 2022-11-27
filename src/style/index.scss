@@ -1,0 +1,231 @@
+#app {
+    font-family: 'Rubik', sans;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: hsl(236, 9%, 61%);
+    margin-top: 20vh;
+    font-size: 19px;
+}
+.light-greyish-blue {
+  color: hsl(233, 11%, 84%);
+}
+
+.check-icon {
+    background-image: linear-gradient(#57ddff, #c058f3);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    line-height: 18px;
+    border-radius: 100%;
+    text-align: center;
+}
+.card {
+    
+    border: none !important;
+
+}
+
+h1 {
+  font-weight: 400;
+}
+h1, .h1 {
+    letter-spacing: 10px;
+}
+body {
+    background-image: url('~@/style/images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+}
+.minimal-width-box {
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-control {
+    
+    color: hsl(235, 19%, 35%);
+    border: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+    border-color: hsl(233, 11%, 84%);
+    outline: 0;
+    box-shadow: none;
+}
+.basic-block {
+  margin-bottom: 15px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: hsl(233, 11%, 84%);
+}
+.muted-txt {
+
+}
+
+.bottom-bar {
+    font-size: 14px;
+}
+
+label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-color: #d2d3db;
+}
+.action-item:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: hsl(235, 19%, 35%);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.basic-stack-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.list-group-item {
+    
+    color: hsl(235, 19%, 35%);
+    border: var(--bs-list-group-border-width) solid hsl(236, 33%, 92%);
+}
+
+.card > .list-group {
+    border-top: inherit;
+    border-bottom: none !important;
+}
+
+ul.menu {
+  
+}
+ol, ul {
+    padding-left: 0 !important;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.spacing-block {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.active {
+    color: hsl(220, 98%, 61%);
+    opacity: 1;
+}
+
+ol, ul, dl {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    
+    background-size: 100% 30vh;
+}
+#app {
+    margin-top: 10vh;
+    font-size: 16px;
+}
+.list-group-item:first-child {
+}
+
+
+background-image: url('~@/style/images/bg-mobile-light.JPG');
+
+body.dark {
+    
+    background-image: url('~@/style/images/bg-mobile-dark.JPG');
+
+}
+
+}
+
+
+
+
+
+.card {
+  margin-bottom: 15px;
+}
+
+
+body {
+    
+    background-color: hsl(0, 0%, 98%) !important;
+}
+
+body.dark {
+
+    .light-greyish-blue {
+      color: hsl(234, 39%, 85%);
+    }
+
+    .light-greyish-blue:hover {
+      color: hsl(236, 33%, 92%);
+    }
+    
+    background-color: hsl(235, 21%, 11%) !important;
+    background-image: url('~@/style/images/bg-desktop-dark.jpg');
+
+    .form-control {
+        
+        background-color: hsl(235, 24%, 19%);
+        border: 1px solid hsl(235, 21%, 11%);
+        color: hsl(234, 39%, 85%);
+    }
+
+    .form-control:focus {
+        
+        border-color: hsl(235, 21%, 11%);
+        outline: 0;
+        box-shadow: none;
+    }
+   .list-group-item {
+        color: hsl(234, 39%, 85%);
+        background-color: #25273c;
+        border: 1px solid hsl(237, 14%, 26%);
+    }
+    .card {
+      background: hsl(235, 24%, 19%) !important;
+    }
+
+    .completed {
+        color: hsl(233, 14%, 35%);
+    }
+    input[type=radio] {
+      width: 20px;
+      height: 20px;
+      background: transparent;
+      border-color: hsl(233, 14%, 35%);
+    }
+
+    #app {
+        
+        color: hsl(234, 11%, 52%);
+    }
+  .action-item:hover {
+    color: hsl(236, 33%, 92%);
+  }
+  ::placeholder {
+    color: hsl(234, 11%, 52%);
+  }
+}
