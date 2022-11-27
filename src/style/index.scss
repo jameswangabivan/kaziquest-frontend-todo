@@ -139,6 +139,8 @@ ol, ul, dl {
     margin-bottom: 10px !important;
 }
 
+/* Custom mobile-specific design*/
+
 @media only screen and (max-width: 600px) {
   body {
     
@@ -175,6 +177,8 @@ body {
     
     background-color: hsl(0, 0%, 98%) !important;
 }
+
+/* Begin custom design for dark theme */
 
 body.dark {
 
@@ -232,3 +236,5 @@ body.dark {
     color: hsl(234, 11%, 52%);
   }
 }
+
+/* End dark theme design */
